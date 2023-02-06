@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import lax from 'lax.js';
-import LaxDiv from '../Shared/LaxDiv';
+// import LaxDiv from '../Shared/LaxDiv';
 import "../../assets/css/conf-personal.css"
 
 class Pricing extends React.Component {
@@ -26,8 +26,6 @@ class Pricing extends React.Component {
                   Become a <b>Sponsor</b>
                 </h2>
 
-                <LaxDiv text="Pricing" dataPreset="driftLeft" />
-
                 <div className="bar"></div>
               </div>
 
@@ -43,12 +41,7 @@ class Pricing extends React.Component {
 
                     <ul className="pricing-content">
                       <li>Regular Seating</li>
-                      <li>Comfortable Seat</li>
-                      <li>Coffee Break</li>
-                      <li>One Workshop</li>
-                      <li>Certificate</li>
-                      <li>Custom Badge</li>
-                      <li>Access to Artists Meeting</li>
+                      {/* IGUAL TODOS  */}
                     </ul>
 
                     <Link to="#" className="btn btn-primary">
@@ -68,12 +61,6 @@ class Pricing extends React.Component {
 
                     <ul className="pricing-content">
                       <li>Regular Seating</li>
-                      <li>Comfortable Seat</li>
-                      <li>Coffee Break</li>
-                      <li>One Workshop</li>
-                      <li>Certificate</li>
-                      <li>Custom Badge</li>
-                      <li>Access to Artists Meeting</li>
                     </ul>
 
                     <Link to="#" className="btn btn-primary">
@@ -93,12 +80,6 @@ class Pricing extends React.Component {
 
                     <ul className="pricing-content">
                       <li>Regular Seating</li>
-                      <li>Comfortable Seat</li>
-                      <li>Coffee Break</li>
-                      <li>One Workshop</li>
-                      <li>Certificate</li>
-                      <li>Custom Badge</li>
-                      <li>Access to Artists Meeting</li>
                     </ul>
 
                     <Link to="#" className="btn btn-primary">
@@ -115,12 +96,6 @@ class Pricing extends React.Component {
 
                     <ul className="pricing-content">
                       <li>Regular Seating</li>
-                      <li>Comfortable Seat</li>
-                      <li>Coffee Break</li>
-                      <li>One Workshop</li>
-                      <li>Certificate</li>
-                      <li>Custom Badge</li>
-                      <li>Access to Artists Meeting</li>
                     </ul>
 
                     <Link to="#" className="btn btn-primary">

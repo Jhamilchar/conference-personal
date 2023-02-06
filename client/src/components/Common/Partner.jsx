@@ -4,37 +4,34 @@ import lax from 'lax.js';
 import OwlCarousel from 'react-owl-carousel3';
 import "../../assets/css/conf-personal.css"
 
-// import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
-// import GoldSponsors from '../LaxButton/GoldSponsors';
-
-// const options = {
-//     loop: true,
-//     nav: false,
-//     dots: false,
-//     autoplayHoverPause: true,
-//     autoplay: true,
-//     navText: [
-//         "<i class='icofont-rounded-left'></i>",
-//         "<i class='icofont-rounded-right'></i>"
-//     ],
-//     responsive: {
-//         0: {
-//             items:2,
-//         },
-//         400: {
-//             items:3,
-//         },
-//         576: {
-//             items:3,
-//         },
-//         768: {
-//             items:4,
-//         },
-//         1200: {
-//             items:5,
-//         }
-//     }
-// }
+const options = {
+    loop: true,
+    nav: false,
+    dots: false,
+    autoplayHoverPause: true,
+    autoplay: true,
+    navText: [
+        "<i class='icofont-rounded-left'></i>",
+        "<i class='icofont-rounded-right'></i>"
+    ],
+    responsive: {
+        0: {
+            items:2,
+        },
+        400: {
+            items:3,
+        },
+        576: {
+            items:3,
+        },
+        768: {
+            items:4,
+        },
+        1200: {
+            items:5,
+        }
+    }
+}
 
 class Partner extends React.Component {
 
@@ -59,19 +56,22 @@ class Partner extends React.Component {
                   Our Event <b>Sponsors</b>
                 </h2>
 
-                {/* <Link to="/sponsors" className="btn btn-primary">Become Link Sponsor</Link> */}
+                <Link to="/sponsors" className="btn btn-primary">
+                  Become Link Sponsor
+                </Link>
 
                 <div className="bar"></div>
               </div>
 
-              <div className="row">
-                <OwlCarousel className="platinum-partner-slides owl-carousel owl-theme">
+              <div className="row .unic">
+                <OwlCarousel
+
+                  className="asd gold-partner-slides owl-carousel owl-theme"
+                  {...options}
+                >
                   <div className="col-lg-12 col-md-12">
-                    <div className="partner-item ">
-                      <Link
-                        to="/sponsors"
-                        target="_blank"
-                      >
+                    <div className="partner-item">
+                      <Link to="/sponsors" target="_blank">
                         <img
                           className="build"
                           src={require("../../assets/images/aws.png")}
@@ -102,61 +102,58 @@ class Partner extends React.Component {
                       </Link>
                     </div>
                   </div>
+
+                  <div className="col-lg-12 col-md-12">
+                    <div className="partner-item">
+                      <Link to="/sponsors" target="_blank">
+                        <img
+                          className="build"
+                          src={require("../../assets/images/aws.png")}
+                          alt="Partner Logo"
+                        />
+                        <img
+                          className="build"
+                          src={require("../../assets/images/aws.png")}
+                          alt="Partner Logo"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-12 col-md-12">
+                    <div className="partner-item">
+                      <Link to="/sponsors" target="_blank">
+                        <img
+                          className="build-2"
+                          src={require("../../assets/images/barra_lito.png")}
+                          alt="Partner Logo"
+                        />
+                        <img
+                          className="build-2"
+                          src={require("../../assets/images/barra_lito.png")}
+                          alt="Partner Logo"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-12 col-md-12">
+                    <div className="partner-item">
+                      <Link to="/sponsors" target="_blank">
+                        <img
+                          className="build"
+                          src={require("../../assets/images/aws.png")}
+                          alt="Partner Logo"
+                        />
+                        <img
+                          className="build"
+                          src={require("../../assets/images/aws.png")}
+                          alt="Partner Logo"
+                        />
+                      </Link>
+                    </div>
+                  </div>
                 </OwlCarousel>
-
-                <div className="col-lg-12">
-                  <div className="border"></div>
-                </div>
-
-                {/* <OwlCarousel
-                            className="gold-partner-slides owl-carousel owl-theme"
-                            {...options}
-                        >
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/gold-partner1.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/gold-partner1.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/gold-partner2.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/gold-partner2.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/gold-partner3.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/gold-partner3.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/gold-partner4.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/gold-partner4.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/gold-partner5.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/gold-partner5.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </OwlCarousel> */}
               </div>
             </div>
           </section>

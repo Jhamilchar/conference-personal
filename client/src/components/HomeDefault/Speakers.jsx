@@ -1,7 +1,7 @@
 import React from 'react';
 import lax from 'lax.js';
 import { Link } from 'react-router-dom';
-import LaxDiv from '../Shared/LaxDiv';
+// import LaxDiv from '../Shared/LaxDiv';
 import "../../assets/css/conf-personal.css"
 
 class Speakers extends React.Component {
@@ -26,7 +26,6 @@ class Speakers extends React.Component {
                   <span>Listen to the Event Speakers</span>
                   <h2>Keynoutes</h2>
                   <div className="bar"></div>
-                  <LaxDiv text="Speakers" dataPreset="driftRight" />
                   {/* <Link to="#" className="btn btn-primary">
                   View More Speakers
                 </Link> */}
@@ -132,7 +131,6 @@ class Speakers extends React.Component {
                 <div className="section-title">
                   <h2>Speakers</h2>
                   <div className="bar"></div>
-                  <LaxDiv text="Speakers" dataPreset="driftRight" />
                   {/* <Link to="#" className="btn btn-primary">
                   View More Speakers
                 </Link> */}
@@ -238,7 +236,6 @@ class Speakers extends React.Component {
                 <div className="section-title">
                   <h2>Organizers</h2>
                   <div className="bar"></div>
-                  <LaxDiv text="Speakers" dataPreset="driftRight" />
                   {/* <Link to="#" className="btn btn-primary">
                   View More Speakers
                 </Link> */}

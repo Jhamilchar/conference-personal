@@ -1539,7 +1539,7 @@ Speakers CSS
                     background-color: #0077B5;
                 }
                 &.twitch {
-                    background-color: #6441a5;
+                    background-color: #6441a5 !important;
                 }
                 &:hover, &:focus {
                     background-color: $main-color;

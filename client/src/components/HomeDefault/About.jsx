@@ -26,18 +26,11 @@ class About extends React.Component {
                     <h2>
                       Why should you <b>participate</b> in this event?
                     </h2>
-                    <p>
+                    <p className='font-p'>
                       In times when technology, the consumer and the market
                       change at such rapid rates, technological adoption is no
                       longer an option.
                     </p>
-
-                    <div className="signature">
-                      <img
-                        src={require("../../assets/images/signature.png")}
-                        alt="signature"
-                      />
-                    </div>
 
                     {/* <Link to="/about-3" className="btn btn-primary">
                       Read More
@@ -45,7 +38,7 @@ class About extends React.Component {
                     </Link> */}
 
                     <Link to="#" className="btn btn-secondary">
-                      Read More
+                      Sign Up
                     </Link>
                   </div>
                 </div>
@@ -53,23 +46,23 @@ class About extends React.Component {
                 <div className="col-lg-6">
                   <div className="about-image">
                     <img
-                      src={require("../../assets/images/about1.jpg")}
+                      src={require("../../assets/images/deepracer_league.png")}
                       className="about-img1"
                       alt="about"
                     />
 
                     <img
-                      src={require("../../assets/images/about2.jpg")}
+                      src={require("../../assets/images/aws_community_day_lima_2019.jpeg")}
+                      width={510}
                       className="about-img2"
                       alt="about"
                     />
 
-                    <img
+                    {/* <img
                       src={require("../../assets/images/shapes/5.png")}
                       className="shape-img"
                       alt="about"
-                    />
-
+                    /> */}
                   </div>
                 </div>
               </div>

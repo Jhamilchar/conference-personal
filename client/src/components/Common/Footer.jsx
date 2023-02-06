@@ -75,6 +75,7 @@ class Footer extends React.Component {
                           href="https://www.twitch.tv/awsugperu"
                           className="twitch"
                           target="blank"
+                          style={{background: "#6441a5"}}
                         >
                           <i className="icofont-twitch"></i>
                         </a>
@@ -88,16 +89,13 @@ class Footer extends React.Component {
                     <div className="logo">
                       <Link to="/">
                         <img
-                          style={{ width: "260px", marginBottom: "2rem" }}
+                          style={{ width: "230px", marginBottom: "2rem" }}
                           src={require("../../assets/images/logo.png")}
                           alt="logo"
                         />
                       </Link>
                     </div>
-                    <p>
-                      Modificado por AWS UG Peru © 2023. Todos los derechos
-                      reservados.
-                    </p>
+                    <p>Modified by AWS UG Peru © 2023. All rights reserved.</p>
                   </div>
                 </div>
               </div>

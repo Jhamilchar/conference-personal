@@ -13,16 +13,16 @@ import Partner from '../Common/Partner';
 import LatestNews from '../HomeDefault/LatestNews';
 import BuyTicket from '../Common/BuyTicket';
 import Subscribe from '../Common/Subscribe';
- 
+
 class HomeDefault extends React.Component {
     constructor(props) {
         super(props)
         lax.setup()
-    
+
         document.addEventListener('scroll', function(x) {
             lax.update(window.scrollY)
         }, false)
-    
+
         lax.update(window.scrollY)
     }
     render(){
@@ -59,5 +59,5 @@ class HomeDefault extends React.Component {
         );
     }
 }
- 
+
 export default HomeDefault;

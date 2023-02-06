@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, NavLink } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
 import { Link } from "react-scroll";
 
