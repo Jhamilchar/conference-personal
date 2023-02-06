@@ -1,0 +1,25 @@
+.content {
+    padding-bottom: 6rem;
+}
+
+.build {
+    width: 12.5rem !important;
+    height: 3.75rem !important;
+}
+
+.build-2 {
+    width: 12.5rem !important;
+    height: 5rem !important;
+}
+
+@media (min-width: 1400px) {
+    .container-three {
+        max-width: 1320px;
+    }
+}
+
+
+
+
+
+
